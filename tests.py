@@ -73,3 +73,4 @@ def test_delete_book_from_favorites(bc):
     bc.add_book_in_favorites("Дюна")
     bc.delete_book_from_favorites("Дюна")
     assert bc.get_list_of_favorites_books() == []
+
